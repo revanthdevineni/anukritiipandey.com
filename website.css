@@ -1,0 +1,164 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: linear-gradient(175deg,white,rgb(255, 0, 153),white);
+}
+html{
+    scroll-behavior: smooth;
+}
+#nav{
+    width: 100%;
+}
+div{
+    width: 100%;
+    background-color: white;
+    height: 4vh;
+    position: sticky;
+    top: 0px;
+    border: 1px solid black;
+    border-radius: 2px;
+    z-index: 1;
+}
+#stickynav{
+    width: 50%;
+    height: 4vh;
+    position: sticky;
+    left: 25%;
+}
+fieldset{
+    width: 400px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: purple;
+    border: solid 2px black;
+    border-radius: 10px;
+    background-image: url(anu.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+    transition: background-position , background-size;
+    transition-duration: 2s;
+    transition-timing-function: ;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 220px;
+}
+fieldset:hover{
+    background-position: left;
+    background-size: 120px;
+}
+p{
+    font-size: 13px;
+    width: 250px;
+    float: right;
+    text-align: justify;
+    font-weight: bold;
+    padding-right: 5px;
+    color: transparent;
+    transition: color;
+    transition-duration: 2s;
+
+    
+}
+h1{
+    text-align: right;
+    padding-right: 15px ;
+    color: transparent;
+    transition: color ;
+    transition-duration: 2s;
+}
+fieldset:hover>p{
+    color: white;
+}
+fieldset:hover>h1{
+    color: lawngreen;
+}
+#socialmedia{
+    margin-top: 10px;
+    color: black;
+    background-color: lawngreen;
+    text-align:center;
+    font-size: 20px;
+
+}
+#social{
+    color: black;
+    margin-right:145px;
+}
+#socialm{
+    width: 100%;
+    height: 100px;
+    border: none;
+    float: left;
+    background-color: transparent;
+    position: static;
+}
+#insta{
+    margin-left: 10%;
+    width: 150px;
+
+}
+#youtube{
+    width: 150px;
+}
+#top{
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 15px;
+    margin-top: 850px;
+    background-image: url(pngwing.com.png);
+    background-size: 100%;
+    border: none;
+
+
+
+}
+details{
+    width: 100%;
+    border: none;
+}
+#intro{
+    width: 100%;
+}
+summary{
+    display: block;
+}
+h3{
+    text-align: center;
+    margin-top: 5%;
+}
+.thumbnail{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    position: static;
+}
+.animation{
+    transform: translate(0px,0px);
+    animation: slideanimation 2s  both;
+    position: static;
+}
+@keyframes slideanimation {
+    from{
+        transform: translate(-350px,0px);
+
+    }
+    to{
+        transform: translate(0px,0px);
+    }
+    
+}
+iframe{
+    width: 100%;
+    height: 300px;
+}
